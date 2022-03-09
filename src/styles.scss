@@ -254,12 +254,14 @@ a:focus {
 /*******************************/
 
 .hero {
-    position: relative;
+    // position: relative;
+    position: absolute;
+    height: 100%;
     width: 100%;
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(./assets/img/hero-bg.jpg);
+    background: linear-gradient(rgba(3, 78, 163, 0.95), rgba(28, 112, 221, 0.95)), url(./assets/img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -325,7 +327,7 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color: #EF233C;
+    color: #000000;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
