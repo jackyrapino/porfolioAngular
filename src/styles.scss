@@ -1370,3 +1370,16 @@ a:focus {
 
 
 /* You can add global styles to this file, and also import other style files */
+
+*::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #5271ff;
+}
