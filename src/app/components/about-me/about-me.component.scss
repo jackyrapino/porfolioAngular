@@ -1,0 +1,66 @@
+.about {
+    position: relative;
+    width: 100%;
+    margin: -45px 0 45px 0;
+}
+
+.about .col-lg-6 {
+    padding: 0;
+}
+
+.about .section-header {
+    margin-bottom: 30px;
+}
+
+.about .about-img {
+    position: relative;
+    height: 100%;
+}
+
+.about .about-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .about-content {
+    padding: 0 60px;
+}
+
+.about .about-text p {
+    font-size: 16px;
+}
+
+.about .skills {
+    margin-bottom: 30px;
+}
+
+.about .skill-name {
+    margin-top: 15px;
+}
+
+.about .skill-name p {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about .skill-name p:last-child {
+    float: right;
+}
+
+.about .about-text a.btn {
+    margin-top: 15px;
+}
+
+@media (max-width: 991.98px) {
+    .about .about-content {
+        padding: 45px 15px 0 15px;
+    }
+}
+
+.resaltar:hover {
+    font-weight: 900;
+}

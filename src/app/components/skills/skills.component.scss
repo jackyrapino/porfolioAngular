@@ -1,0 +1,110 @@
+    .service {
+        position: relative;
+        width: 100%;
+        padding: 45px 0 15px 0;
+        margin-top: -67px;
+    }
+    
+    .service .service-item {
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        box-shadow: inset 0 0 0 0 transparent;
+        transition: ease-out 0.5s;
+        user-select: none;
+    }
+    
+    .service .service-item:hover {
+        box-shadow: inset 800px 0 0 0 rgba(28, 112, 221, 0.95);
+    }
+    
+    .service .service-icon {
+        position: relative;
+        width: 150px;
+        min-height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(28, 112, 221, 0.95);
+        background: #ffffff;
+    }
+    
+    .service .service-icon i {
+        position: relative;
+        font-size: 60px;
+        color: rgba(28, 112, 221, 0.95);
+        transition: .3s;
+    }
+    
+    .service .service-item:hover i {
+        font-size: 75px;
+    }
+    
+    .service .service-text {
+        position: relative;
+        width: calc(100% - 120px);
+        padding: 0 30px;
+    }
+    
+    .service .service-text h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        transition: 1s;
+    }
+    
+    .service .service-text p {
+        margin: 0;
+        font-size: 16px;
+        transition: 1s;
+    }
+    
+    .service .service-item:hover .service-text h3,
+    .service .service-item:hover .service-text p {
+        color: #ffffff;
+    }
+    
+    @media (max-width: 575.98px) {
+        .service .service-text h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .service .service-text p {
+            font-size: 14px;
+        }
+    }
+    
+    .exit {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 5px;
+    }
+    
+    .btn-exit:hover {
+        color: rgba(28, 112, 221, 0.95);
+        background: transparent;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        border-color: rgba(28, 112, 221, 0.95);
+    }
+    
+    .btn {
+        color: #ffffff;
+    }
+    
+    .iconoSkilss {
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        color: rgba(28, 112, 221, 0.95);
+        border: 1px solid rgba(28, 112, 221, 0.95);
+        width: 150px;
+        min-height: 150px;
+        align-items: center;
+        position: relative;
+    }
+    
+    .centrar {
+        display: flex;
+        justify-content: center;
+    }

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgxPageScrollModule } from 'ngx-page-scroll';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +11,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { SkillsComponent } from './components/skills/skills.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -22,12 +24,16 @@ import { TimelineComponent } from './components/timeline/timeline.component';
     AboutMeComponent,
     SkillsComponent,
     TimelineComponent,
+    ContactComponent,
+    
+
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxPageScrollModule,
-    NgxPageScrollCoreModule.forRoot({duration: 800})
+    NgbModule,
+
    
   ],
   providers: [],

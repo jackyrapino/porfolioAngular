@@ -3,21 +3,23 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-img">
-                    <img src="../../../assets/img/aboutmj.jpg" alt="Image">
+                    <img src="../../../assets/img/aboutmj.jpg" alt="Image" />
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content">
                     <div class="section-header text-left">
                         <p>Sobre mi</p>
-                        <h2>Algo de mi historaia</h2>
+                        <h2>Algo de mi historia</h2>
                     </div>
                     <div class="about-text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida
-                        </p>
+                        <p [innerHTML]="texto"> </p>
+                        <a pageScroll href="#contact">
+                            <h4 class="resaltar">¿Me Acompañas?</h4>
+                        </a>
                     </div>
-
                 </div>
             </div>
         </div>
+    </div>
+</div>

@@ -23,7 +23,8 @@ h6 {
 
 a {
     color: #313131;
-    transition: .3s;
+    transition: .3;
+    text-decoration: none !important;
 }
 
 a:hover,
@@ -49,20 +50,20 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background: #EF233C;
+    background: rgba(28, 112, 221, 0.95);
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #EF233C;
+    box-shadow: inset 0 0 0 50px rgba(28, 112, 221, 0.95);
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
 
 .btn:hover {
-    color: #EF233C;
+    color: rgba(28, 112, 221, 0.95);
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 rgba(28, 112, 221, 0.95);
+    border-color: rgba(28, 112, 221, 0.95);
 }
 
 #loader {
@@ -176,7 +177,7 @@ a:focus {
     top: 11px;
     right: 0;
     left: -30px;
-    background: #EF233C;
+    background: rgba(28, 112, 221, 0.95);
     z-index: -1;
 }
 
@@ -187,7 +188,7 @@ a:focus {
     height: 3px;
     top: 11px;
     left: 3px;
-    background: #EF233C;
+    background: rgba(28, 112, 221, 0.95);
     z-index: 1;
 }
 
@@ -1073,85 +1074,6 @@ a:focus {
 
 /*******************************/
 
-.contact {
-    position: relative;
-    width: 100%;
-    margin: 45px 0;
-    background: #EF233C;
-}
-
-.contact .container-fluid {
-    background: url(./assets/img/contact.jpg) left center no-repeat;
-    background-size: contain;
-}
-
-.contact .contact-form {
-    position: relative;
-    padding: 90px 0 90px 45px;
-    background: #EF233C;
-}
-
-.contact .contact-form input {
-    color: #ffffff;
-    padding: 15px 0;
-    background: none;
-    border-radius: 0;
-    border: none;
-    border-bottom: 1px solid rgba(256, 256, 256, .5);
-}
-
-.contact .contact-form textarea {
-    color: #ffffff;
-    height: 90px;
-    padding: 15px 0;
-    background: none;
-    border-radius: 0;
-    border: none;
-    border-bottom: 1px solid rgba(256, 256, 256, .5);
-}
-
-.contact .contact-form .form-control::placeholder {
-    color: #ffffff;
-    opacity: 1;
-}
-
-.contact .contact-form .form-control:-ms-input-placeholder,
-.contact .contact-form .form-control::-ms-input-placeholder {
-    color: #ffffff;
-}
-
-.contact .contact-form .btn {
-    margin-top: 35px;
-    color: #EF233C;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
-}
-
-.contact .contact-form .btn:hover {
-    color: #ffffff;
-    background: transparent;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    border-color: #ffffff;
-}
-
-.contact .help-block ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-size: 14px;
-    font-style: italic;
-    color: #ffffff;
-}
-
-@media (max-width: 767.98px) {
-    .contact .container-fluid {
-        background: none;
-    }
-    .contact .contact-form {
-        padding: 90px 0;
-    }
-}
-
 
 /*******************************/
 
@@ -1383,3 +1305,8 @@ a:focus {
 *::-webkit-scrollbar-thumb {
     background: #5271ff;
 }
+
+
+/* Importing Bootstrap SCSS file. */
+
+@import '~bootstrap/scss/bootstrap';

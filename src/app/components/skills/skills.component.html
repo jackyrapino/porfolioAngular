@@ -1,1 +1,147 @@
-<p>skills works!</p>
+<div class="service" id="skills" data-aos="fade-up">
+    <div class="container">
+        <div class="section-header text-center wow zoomIn">
+            <p>Que hago</p>
+            <h2>Algunas de mis habilidades</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 wow fadeInUp" (click)="abrirModalDesarrollo()">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fa fa-laptop-code"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Desarrollo</h3>
+                        <p>
+                            Diseño y solución de sistemas adaptados a cada necesidad
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s" (click)="abrirModalOrganizacion()">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fa fa-laptop"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Organización</h3>
+                        <p>
+                            Buena capacidad para gestionar proyectos, equipos y tareas
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s" (click)="abrirModalCompromiso()">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Compromiso</h3>
+                        <p>
+                            Dedicacion para lograr resultados optimos en cada objetivo
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s" (click)="abrirModalCreatividad()">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Creatividad</h3>
+                        <p>
+                            Foco en innovar soluciones que permitan mejorar
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modales -->
+
+<!-- Modal desarrollo -->
+<ng-template #modalDesarrollo let-modal>
+    <article class="modal-body">
+        <div class="exit">
+            <i (click)="modal.dismiss('Cross click')" class="btn btn-exit"><i class="fas fa-times"></i> </i>
+        </div>
+
+
+        <div *ngIf="true" class="centrar">
+            <i class="fa fa-laptop-code iconoSkilss"></i>
+        </div>
+
+        <h1 class="text-center title mt-3">Desarrollo</h1>
+
+        <h4 class="text-left subtitle mt-3 mb-3"> Algunos de mis conocimientos </h4>
+
+    </article>
+
+</ng-template>
+
+<!-- Modal organizacion -->
+<ng-template #modalOrganizacion let-modal>
+    <article class="modal-body">
+        <div class="exit">
+            <i (click)="modal.dismiss('Cross click')" class="btn btn-exit"><i class="fas fa-times"></i> </i>
+        </div>
+
+
+        <div *ngIf="true" class="centrar">
+            <i class="fa fa-laptop iconoSkilss"></i>
+        </div>
+
+        <h1 class="text-center title mt-3">organizacion</h1>
+
+        <h2 class="text-left subtitle mt-3 mb-3">a</h2>
+        <p class="text">a</p>
+    </article>
+
+</ng-template>
+
+<!-- Modal compromiso -->
+
+<ng-template #modalCompromiso let-modal>
+    <article class="modal-body">
+        <div class="exit">
+            <i (click)="modal.dismiss('Cross click')" class="btn btn-exit"><i class="fas fa-times"></i> </i>
+        </div>
+
+
+        <div *ngIf="true" class="centrar">
+            <i class="fas fa-handshake iconoSkilss"></i>
+        </div>
+
+        <h1 class="text-center title mt-3">Compromiso</h1>
+
+        <h2 class="text-left subtitle mt-3 mb-3">a</h2>
+        <p class="text">a</p>
+    </article>
+
+</ng-template>
+
+<!-- Modal creatividad -->
+
+<ng-template #modalCreatividad let-modal>
+    <article class="modal-body">
+        <div class="exit">
+            <i (click)="modal.dismiss('Cross click')" class="btn btn-exit"><i class="fas fa-times"></i> </i>
+        </div>
+
+
+        <div *ngIf="true" class="centrar">
+            <i class="fas fa-lightbulb iconoSkilss"></i>
+        </div>
+
+        <h1 class="text-center title mt-3">Creatividad</h1>
+
+        <h2 class="text-left subtitle mt-3 mb-3">a</h2>
+        <p class="text">a</p>
+    </article>
+
+</ng-template>

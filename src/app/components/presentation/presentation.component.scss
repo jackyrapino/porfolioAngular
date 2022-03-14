@@ -6,10 +6,22 @@
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(3, 78, 163, 0.95), rgba(28, 112, 221, 0.95)), url(/assets/img/hero-bg.jpg);
+    background: linear-gradient(rgba(3, 78, 163, 0.95), rgba(28, 112, 221, 0.95));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (min-width: 992px) {
+    .hero {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero {
+        height: 94vh;
+    }
 }
 
 .hero .container-fluid {
@@ -156,5 +168,23 @@
     .hero .hero-btn .btn {
         padding: 8px 10px;
         letter-spacing: 0;
+    }
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .1em solid rgb(209, 197, 197);
+    white-space: nowrap;
+    animation: typing 3s forwards;
+    font-size: 1.6rem;
+    width: 0;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 65%;
     }
 }

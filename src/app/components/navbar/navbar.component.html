@@ -7,8 +7,11 @@
 
         <div class="navCol collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto">
-                <a pageScroll href="#home" class="nav-item nav-link">Home</a>
-                <a pageScroll href="#about" class="nav-item nav-link">Sobre mí</a>
+                <a pageScroll href="#home" class="nav-item nav-link" (click)="toggleNavbar()">Inicio</a>
+                <a pageScroll href="#about" class="nav-item nav-link" (click)="toggleNavbar()">Sobre mí</a>
+                <a pageScroll href="#skills" class="nav-item nav-link" (click)="toggleNavbar()">Habilidades</a>
+                <a pageScroll href="#experience" class="nav-item nav-link" (click)="toggleNavbar()">Experiencia</a>
+                <a pageScroll href="#contact" class="nav-item nav-link" (click)="toggleNavbar()">Contáctame</a>
 
 
             </div>
