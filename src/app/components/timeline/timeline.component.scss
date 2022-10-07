@@ -10,7 +10,7 @@
 }
 
 .experience .timeline::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 2px;
     background: rgba(28, 112, 221, 0.95);
@@ -38,7 +38,7 @@
 }
 
 .experience .timeline .timeline-item::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 16px;
     height: 16px;
@@ -55,7 +55,7 @@
 }
 
 .experience .timeline .timeline-item::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 0;
     height: 0;
@@ -98,7 +98,7 @@
     background: #ffffff;
     position: relative;
     border-right: 5px solid #dddddd;
-    box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.08);
 }
 
 .experience .timeline .timeline-item.right .timeline-text {

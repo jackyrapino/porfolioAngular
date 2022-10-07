@@ -6,58 +6,17 @@
             <h2>Experiencia Laboral</h2>
         </header>
         <div class="timeline">
-            <div class="timeline-item left wow slideInLeft" data-aos="fade-left">
-                <div class="timeline-text">
-                    <div class="timeline-date">Octubre 2021 - Marzo 2022</div>
-                    <h2>Project Manager</h2>
-                    <h4>Valkiria Consultora, Santiago de Chile, Chile</h4>
-                    <p>
-                        Mis tareas eran llevar a cabo la coordinación de equipo, la gestión de proyecto, testing manual y revision de funcionalidades con el equipo, mediar con clientes y crear los procesos necesario para lograr el objetivo de implementar metodologías ágiles
-                        como Scrum.
-
-                    </p>
-                </div>
-            </div>
-            <div class="timeline-item right wow slideInRight" data-aos="fade-right">
-                <div class="timeline-text">
-                    <div class="timeline-date">Septiembre 2021 - Octubre 2021</div>
-                    <h2>Software Engineer</h2>
-                    <h4>Codefire, Viña del Mar, Chile</h4>
-                    <p>
-                        Mis tareas eran programación frontend con Angular y TypeScript, análisis de interfaces gráficas y manejo de metodologías ágiles.
-                    </p>
-                </div>
-            </div>
-            <div class="timeline-item left wow slideInLeft" data-aos="fade-left">
-                <div class="timeline-text">
-                    <div class="timeline-date">Marzo 2021 - Agosto 2021</div>
-                    <h2>Developer JR. .NET fullstack</h2>
-                    <h4>Intellexis, Buenos Aires, Argentina</h4>
-                    <p>
-                        Mis tareas eran programar en ASP.NET y ASP.NET Core integrado con Bootstrap, analisis de requerimientos, proponer mejoras, testing manual y participación activa en reuniones con clientes.
-                    </p>
-                </div>
-            </div>
-            <div class="timeline-item right wow slideInRight" data-aos="fade-right">
-                <div class="timeline-text">
-                    <div class="timeline-date">Agosto 2020 - Enero 2021</div>
-                    <h2>Help Desk</h2>
-                    <h4>Sion Internet, Buenos Aires, Argentina</h4>
-                    <p>
-                        Mis tareas eran gestionar los tickets de forma rápida y ágil, dando soluciones inmediatas al cliente, evaluación y derivación de casos. Desde la parte humanística, colaborar con mi equipo día a día para lograr un mejor desempeño en conjunto.
-                    </p>
-                </div>
-            </div>
-            <div class="timeline-item left wow slideInLeft" data-aos="fade-left">
-                <div class="timeline-text">
-                    <div class="timeline-date">Marzo 2019 - Noviembre 2019</div>
-                    <h2>Nanotechnology Developer</h2>
-                    <h4>UAI, Buenos Aires, Argentina</h4>
-                    <p>
-                        Mis tareas eran elaborar el desarrollo completo de un sistema de salud preventivo, que envuelve el desarrollo de un chip que contenía nanotecnología, para pacientes con hipertensión, entre otras patologías. Como también generar y crear la idea de negocio,
-                        análisis de mercado, análisis financiero y proyección de ganancias. Desde la parte humanística a su vez, dirigir al equipo como líder, en tomas de decisiones y colaborar para llegar a los objetivos propuestos.
-                    </p>
-                </div>
+            <div *ngFor="let job of jobs">
+                <article [class]="job.class" class="timeline-item" [id]="job.class + job.id">
+                    <div class="timeline-text">
+                        <div class="timeline-date">{{ job.dates }}</div>
+                        <h2>{{ job.title }}</h2>
+                        <h4>{{ job.location }}</h4>
+                        <p>
+                            {{ job.description }}
+                        </p>
+                    </div>
+                </article>
             </div>
         </div>
     </div>
