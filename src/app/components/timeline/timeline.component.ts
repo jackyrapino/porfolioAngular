@@ -18,13 +18,22 @@ export class TimelineComponent implements OnInit {
   defineJobs() {
     this.jobs = [
       {
+        id: '0',
+        dates: 'Mayo 2022 - Actualidad',
+        title: 'Fullstack Developer',
+        location: 'Eppical, Buenos Aires, Argentina',
+        description:
+          'Mis tareas son desarrollar y aportar soluciones a distintos proyectos con el stack tecnologico Angular + .NET',
+        class: 'left',
+      },
+      {
         id: '1',
         dates: 'Octubre 2021 - Marzo 2022',
         title: 'Project Manager',
         location: 'Valkiria Consultora, Santiago de Chile, Chile',
         description:
           'Mis tareas eran llevar a cabo la coordinación de equipo, la gestión de proyectos, testing manual y revision de funcionalidades con el equipo, mediar con clientes y crear los procesos necesarios para lograr el objetivo de implementar metodologías ágiles como Scrum.',
-        class: 'left',
+        class: 'right',
       },
       {
         id: '2',
@@ -33,7 +42,7 @@ export class TimelineComponent implements OnInit {
         location: 'Codefire, Viña del Mar, Chile',
         description:
           'Mis tareas eran programación frontend con Angular y TypeScript, análisis de interfaces gráficas y manejo de metodologías ágiles.',
-        class: 'right',
+        class: 'left',
       },
       {
         id: '3',
@@ -42,7 +51,7 @@ export class TimelineComponent implements OnInit {
         location: 'Intellexis, Buenos Aires, Argentina',
         description:
           'Mis tareas eran llevar a cabo la coordinación de equipo, la gestión de proyectos, testing manual y revision de funcionalidades con el equipo, mediar con clientes y crear los procesos necesarios para lograr el objetivo de implementar metodologías ágiles como Scrum.',
-        class: 'left',
+        class: 'right',
       },
       {
         id: '4',
@@ -51,7 +60,7 @@ export class TimelineComponent implements OnInit {
         location: 'Sion Internet, Buenos Aires, Argentina',
         description:
           ' Mis tareas eran gestionar los tickets de forma rápida y ágil, dando soluciones inmediatas al cliente, evaluación y derivación de casos. Desde la parte humanística, colaborar con mi equipo día a día para lograr un mejor desempeño en conjunto.',
-        class: 'right',
+        class: 'left',
       },
       {
         id: '5',
@@ -60,7 +69,7 @@ export class TimelineComponent implements OnInit {
         location: 'UAI, Buenos Aires, Argentina',
         description:
           'Mis tareas eran elaborar el desarrollo completo de un sistema de salud preventivo, que envuelve el desarrollo de un chip que contenía nanotecnología, para pacientes con hipertensión, entre otras patologías. Como también generar y crear la idea de negocio, análisis de mercado, análisis financiero y proyección de ganancias. Desde la parte humanística a su vez, dirigir al equipo como líder, en tomas de decisiones y colaborar para llegar a los objetivos propuestos.',
-        class: 'left',
+        class: 'right',
       },
     ];
   }
