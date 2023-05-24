@@ -23,7 +23,7 @@ export class TimelineComponent implements OnInit {
         title: 'Fullstack Developer',
         location: 'Eppical, Buenos Aires, Argentina',
         description:
-          'Mis tareas son desarrollar y aportar soluciones a distintos proyectos con el stack tecnologico Angular + .NET',
+          'Me enfoco en programar en .NET Core, Angular y SQL Server. Utilizo Git para controlar versiones del código, realizo pruebas manuales y trabajo bajo la metodología ágil Scrum. Además, colaboro activamente con el equipo de desarrollo, participando en reuniones, compartiendo conocimientos y trabajando en estrecha colaboración para alcanzar nuestros objetivos comunes.',
         class: 'left',
       },
       {
@@ -32,7 +32,7 @@ export class TimelineComponent implements OnInit {
         title: 'Project Manager',
         location: 'Valkiria Consultora, Santiago de Chile, Chile',
         description:
-          'Mis tareas eran llevar a cabo la coordinación de equipo, la gestión de proyectos, testing manual y revision de funcionalidades con el equipo, mediar con clientes y crear los procesos necesarios para lograr el objetivo de implementar metodologías ágiles como Scrum.',
+          'Mis responsabilidades incluían coordinar y gestionar equipos, realizar pruebas manuales y revisar funcionalidades junto al equipo. Además, actuaba como intermediario con los clientes y creaba los procesos necesarios para implementar metodologías ágiles, como Scrum, con el objetivo de lograr una mayor eficiencia en el desarrollo de proyectos.',
         class: 'right',
       },
       {
@@ -41,16 +41,16 @@ export class TimelineComponent implements OnInit {
         title: 'Software Engineer',
         location: 'Codefire, Viña del Mar, Chile',
         description:
-          'Mis tareas eran programación frontend con Angular y TypeScript, análisis de interfaces gráficas y manejo de metodologías ágiles.',
+          'Me encargaba de la programación frontend utilizando Angular y TypeScript. Además, realizaba análisis de interfaces gráficas y trabajaba con metodologías ágiles.',
         class: 'left',
       },
       {
         id: '3',
         dates: 'Marzo 2021 - Agosto 2021',
-        title: 'Developer JR. .NET fullstack',
+        title: 'Developer .NET fullstack',
         location: 'Intellexis, Buenos Aires, Argentina',
         description:
-          'Mis tareas eran llevar a cabo la coordinación de equipo, la gestión de proyectos, testing manual y revision de funcionalidades con el equipo, mediar con clientes y crear los procesos necesarios para lograr el objetivo de implementar metodologías ágiles como Scrum.',
+          'Mis principales responsabilidades incluían la programación utilizando ASP.NET, Razor y SQL Server. Además, realizaba el análisis de requerimientos para entender las necesidades del proyecto. También me encargaba del testing para garantizar la calidad del software desarrollado. Además, gestionaba reuniones con clientes para discutir avances, realizar demostraciones y asegurar su satisfacción con el producto final.',
         class: 'right',
       },
       {
@@ -59,7 +59,7 @@ export class TimelineComponent implements OnInit {
         title: 'Help Desk',
         location: 'Sion Internet, Buenos Aires, Argentina',
         description:
-          ' Mis tareas eran gestionar los tickets de forma rápida y ágil, dando soluciones inmediatas al cliente, evaluación y derivación de casos. Desde la parte humanística, colaborar con mi equipo día a día para lograr un mejor desempeño en conjunto.',
+          'Me encargaba de gestionar los tickets de manera ágil y eficiente, brindando soluciones inmediatas a los clientes y evaluando y derivando casos según corresponda. Además, colaboraba activamente con mi equipo, trabajando juntos para mejorar nuestro desempeño diario y alcanzar nuestros objetivos de manera conjunta.',
         class: 'left',
       },
       {
